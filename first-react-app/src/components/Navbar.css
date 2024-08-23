@@ -1,0 +1,28 @@
+/* Navbar.css */
+
+.header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    color: white;
+    min-width: 100px;
+    margin-right: 20px;
+  }
+  
+  .logout-button {
+    margin-left: auto;
+    margin-right: 100px;
+    width: 100px;
+  }
+  

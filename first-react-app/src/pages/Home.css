@@ -1,0 +1,30 @@
+.home-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 60px;
+  }
+  
+  .home-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .home-container input[type="file"] {
+    margin-bottom: 20px;
+  }
+  
+  .home-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .home-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
